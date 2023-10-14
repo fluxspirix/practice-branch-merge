@@ -12,9 +12,4 @@ function limpiarPantalla() {
   document.getElementById("pantalla").value = "";
 }
 
-const borrarUltimo = () => {
-  
-  const valorPantalla = document.getElementById("pantalla").value;
-  const result = valorPantalla.substring(0, valorPantalla.length - 1)
-  document.getElementById("pantalla").value = result;
-};
+
